@@ -214,6 +214,48 @@ header .navbar{
 }
 
 
+/* Number css */
+.number{
+    padding: 80px 0 50px;
+    text-align: center;
+    background-image: url(../img/bg14.png);
+    padding-top: 180px;
+    background-position: top;
+    background-size: 100%;
+}
+
+.number .number_content{
+    display: flex;
+    gap: 15px;
+}
+
+.number .number_content .number_item{
+    width: 25%;
+}
+
+.number .number_content .number_item i{
+    background-image: linear-gradient(to right,   #f55f8d 0, 
+    #f8ae56 100%
+    );
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 45px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+.number .number_content .number_item span{
+    margin-right: 10px;
+}
+
+
+.number .number_content .number_item p:nth-child(2){
+    font-size: 70px;
+    color: #f55f8d;
+    font-weight: 700;
+}
 
 
 
