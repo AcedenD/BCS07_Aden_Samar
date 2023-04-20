@@ -18,6 +18,18 @@ li {
     list-style: none;
 }
 
+.title p{
+    color: #f55f8d;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.title h2{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
 .btn-gradient {
     background-image: linear-gradient(to right,   #f55f8d 0, 
     #f8ae56 51%, 
@@ -108,22 +120,12 @@ header .navbar{
     width: 60%;
 }
 
-.saCarousel .saCarousel_left .saCarousel_title p{
-    color: #f55f8d;
-    font-weight: 700;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-.saCarousel .saCarousel_left .saCarousel_title h2{
-    font-size: 70px;
-    padding-bottom: 20px;
-}
-
 .saCarousel .saCarousel_left .saCarousel_point p{
     color: #636363;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding-bottom: 20px;
+    font-size: 19px;
+    line-height: 1.5;
 }
 
 .saCarousel .saCarousel_left .saCarousel_point li{
@@ -142,8 +144,6 @@ header .navbar{
     font-size: 20px;
 }
 
-
-
 .saCarousel .saCarousel_right{
     width: 40%;
 }
@@ -151,6 +151,68 @@ header .navbar{
 .saCarousel .saCarousel_right img{
     margin-left: 70px;
 }
+
+
+
+/* Services css */
+.services{
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(../img/bg17.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+
+
+
+
+/* .services .title{
+    text-align: center;
+} */
+
+.services .services_content{
+    display: flex;
+    /* text-align: center; */
+    gap: 30px;
+}
+
+.services .services_content .title h2{
+    margin-bottom: 30px;
+}
+
+.services .services_content .services_item{
+    padding: 40px;
+    width: 33.33%;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.5s;
+    /* border-image: 100 round;
+    transform: translateY(0); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.services .services_content .services_item img{
+    width: 200px;
+}
+
+.services .services_content .services_item h3{
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.services .services_content .services_item p{
+    color: #636363;
+    line-height: 1.7;
+    padding-bottom: 15px;
+}
+
+.services .services_content .services_item:hover{
+    transform: translateY(-20px);
+    border-image: url(../img/br.png) 1 round;
+}
+
 
 
 
