@@ -8,6 +8,15 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+li {
+    list-style: none;
+}
 
 .btn-gradient {
     background-image: linear-gradient(to right,   #f55f8d 0, 
@@ -37,6 +46,10 @@ html {
 
 
 /* navbar css */
+header{
+    position: absolute;
+    width: 100%;
+}
 header .navbar li {
     margin: 0 15px;
 }
@@ -50,6 +63,93 @@ header .navbar ul a:hover {
 }
 header .navbar ul a:hover span {
     animation: upToDown 0.3s;
+}
+
+header .navbar .navbar_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .navbar_content .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .navbar_content .nav-links li {
+    display: inline-block;
+}
+
+header .navbar{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+/* Carousel css */
+.saCarousel{
+    background-image: url(../img/pic2.png);
+    padding-top: 180px;
+    background-position: top;
+    background-size: 100%;
+}
+
+.saCarousel .saCarousel_content{
+    display: flex;
+    align-items: center;
+}
+
+.saCarousel .saCarousel_left{
+    width: 60%;
+}
+
+.saCarousel .saCarousel_left .saCarousel_title p{
+    color: #f55f8d;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.saCarousel .saCarousel_left .saCarousel_title h2{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.saCarousel .saCarousel_left .saCarousel_point p{
+    color: #636363;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.saCarousel .saCarousel_left .saCarousel_point li{
+    padding-bottom: 20px;
+    color: #636363;
+    font-size: 20px;
+}
+
+.saCarousel .saCarousel_left .saCarousel_point i{
+    padding: 10px;
+    background-image: linear-gradient(to right,   #f55f8d 0, 
+    #f8ae56 100%
+    );
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.saCarousel .saCarousel_right{
+    width: 40%;
+}
+
+.saCarousel .saCarousel_right img{
+    margin-left: 70px;
 }
 
 
