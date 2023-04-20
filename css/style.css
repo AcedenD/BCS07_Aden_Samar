@@ -36,12 +36,11 @@ li {
     #f55f8d 100%
     );
     margin: 10px;
-    padding: 15px 45px;
+    padding: 22px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: all 0.5s;
     background-size: 200%;
-
     border: transparent;
     color: white;
     border-radius: 30px;
@@ -61,6 +60,7 @@ li {
 header{
     position: absolute;
     width: 100%;
+    padding: 30px 0;
 }
 header .navbar li {
     margin: 0 15px;
@@ -107,8 +107,9 @@ header .navbar{
 .saCarousel{
     background-image: url(../img/pic2.png);
     padding-top: 180px;
-    background-position: top;
+    background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .saCarousel .saCarousel_content{
@@ -213,6 +214,57 @@ header .navbar{
     border-image: url(../img/br.png) 1 round;
 }
 
+/* About Us css */
+.aboutUs{
+    padding: 50px 0 50px;
+    background-image: url(../img/bg15.png);
+    background-size: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-bottom: 85px;
+}
+
+.aboutUs .aboutUs_content{
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.aboutUs .aboutUs_content .aboutUs_left {
+    position: absolute;
+    width: 60%;
+    left: -17%;
+}
+
+
+.aboutUs .aboutUs_content .aboutUs_left img{
+    border-radius: 0 100px 100px 0;
+    width: 100%;
+}
+
+.aboutUs .aboutUs_content .aboutUs_right{
+    width: 50%;
+}
+
+.aboutUs .aboutUs_content .aboutUs_right .aboutUs_point p{
+    color: #636363;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.aboutUs .aboutUs_content .aboutUs_right .aboutUs_point li{
+    padding: 10px 0;
+    color: #636363;
+}
+
+.aboutUs .aboutUs_content .aboutUs_right .aboutUs_point li i{
+    font-size: 20px;
+    border: 2.5px solid #f55f8d;
+    color: #f55f8d;
+    border-radius: 50%;
+    margin-right: 7px;
+}
 
 /* Number css */
 .number{
@@ -327,6 +379,9 @@ header .navbar{
     margin-right: 20px;
 }
 
+.blog .carousel2 .item .item_footer p:first-of-type span{
+    color: #f55f8d;
+}
 
 
 
