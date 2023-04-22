@@ -39,6 +39,8 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- fancybox css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
     <!-- flaticon css -->
     <link rel="stylesheet" href="./flaticon/flaticon.css">
@@ -271,7 +273,106 @@
             </div>
         </div>
     </section>
-    <section></section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="title">
+                <p class="">Portfolio</p>
+                <h2 class="">Our Latest Work </h2>
+            </div>
+            <div class="portfolio_content">
+                <div class="portfolio_item portfolio_item1">
+                    <img src="./img/pic1_2.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic1_2.jpg" data-fancybox="gallery" data-caption="Design 1">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item">
+                    <img src="./img/pic2_1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic2_1.jpg" data-fancybox="gallery" data-caption="Design 2">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item">
+                    <img src="./img/pic3_1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic3_1.jpg" data-fancybox="gallery" data-caption="Design 3">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item">
+                    <img src="./img/pic4.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic4.jpg" data-fancybox="gallery" data-caption="Design 4">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item portfolio_item5">
+                    <img src="./img/pic5.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic5.jpg" data-fancybox="gallery" data-caption="Design 5">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item portfolio_item6">
+                    <img src="./img/pic6.jpg" alt="">
+                    <div class="overlay">
+                        <div class="portfolio_icon">
+                            <a href="./img/pic6.jpg" data-fancybox="gallery" data-caption="Design 6">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio_text">
+                            <h3>Software Landing
+                            </h3>
+                            <p>By Jhone Doe </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="blog">
         <div class="container">
             <div class="blog_content">
@@ -467,6 +568,14 @@
                 // nav: true, //hiện mũi tên trái phải
                 dots: false,
             });
+        });
+    </script>
+
+    <!-- fancybox js -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            // Your custom options
         });
     </script>
 
